@@ -8,7 +8,7 @@ pipeline{
         }
         stage('Checkout SCM'){
                 steps{
-                    checkout scm;
+                    git 'https://github.com/pranitaj01/pipeline.git';
                 }
         }
         stage('Build'){
