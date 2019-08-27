@@ -1,4 +1,4 @@
 echo 'My app'
 echo 'Built'
-echo 'feature/pj branch'
+echo 'release branch'
 echo 'tested'
