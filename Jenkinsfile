@@ -25,7 +25,7 @@ pipeline{
         }
         stage('deploy'){
             steps{
-                sh 'deployment of August'
+                sh 'echo deployment of August'
             }
         }
     }
